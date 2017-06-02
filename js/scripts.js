@@ -4,7 +4,10 @@ $(document).ready(function() {
     var childhood = $("input:radio[name=childhood]:checked").val();
       if (childhood === "drawing") {
         $("#result1").show();
-
+      } else if (childhood === "lego") {
+        $("#result2").show();
+      } else if (childhood === "chess") {
+        $("#result3").show();
       }
 
   });
