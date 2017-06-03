@@ -1,3 +1,7 @@
+#quiz {
+  display: none;
+}
+
 #result1 {
   display: none;
 }
@@ -7,5 +11,9 @@
 }
 
 #result3 {
+  display: none;
+}
+
+#retake {
   display: none;
 }
