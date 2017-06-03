@@ -25,3 +25,7 @@ body {
 img {
   float: right;
 }
+
+.jumbotron {
+  text-align: center;
+}
