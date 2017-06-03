@@ -17,3 +17,11 @@
 #retake {
   display: none;
 }
+
+body {
+  background-color: #c5e8f7;
+}
+
+img {
+  float: right;
+}
