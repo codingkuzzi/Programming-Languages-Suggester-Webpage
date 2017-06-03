@@ -9,7 +9,7 @@ function showResult(resultIndex) {
   $("#result1").hide();
   $("#result2").hide();
   $("#result3").hide();
-  $(#result + resultIndex).show();
+  $("#result" + resultIndex).show();
   $(".containerResult").show();
 }
 
@@ -22,14 +22,14 @@ function calculateResult() {
       return 2;
     case "chess":
       return 3;
-        default:
-        return 0;
+    default:
+      return 0;
   }
 }
 
 $(function() {
   initSurvey();
-  $("form#quiz").submit(function (event) {
+  $("form#quiz").submit(function(event) {
     event.preventDefault();
     var resultIndex = calculateResult();
     if (resultIndex > 0) {

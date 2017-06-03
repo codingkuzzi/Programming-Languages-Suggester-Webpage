@@ -2,10 +2,32 @@ body {
   background-color: #c5e8f7;
 }
 
-img {
+#hands {
   float: right;
 }
 
 .jumbotron {
   text-align: center;
+}
+
+#ruby {
+  width: 85%;
+  height: avto;
+}
+
+#design {
+  width: 85%;
+  height: avto;
+}
+
+#retake {
+  padding-top: 30px;
+}
+
+.containerResult {
+  text-align: center;
+}
+
+img {
+  border-radius: 3%;
 }
