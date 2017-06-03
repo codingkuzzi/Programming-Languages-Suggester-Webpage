@@ -1,12 +1,12 @@
 # _Programming Languages Suggester Quiz_
 
-#### _Basic web page for choosing programming languages to learn, June, 2017_
+#### _Basic web page with a quiz for choosing programming languages to learn, June, 2017_
 
 #### By _Anna Kuznetsova_
 
 ## Description
 
-_This webpage has a quiz for choosing programming languages to learn. Answer the questions, click submit and see what is the best choice for you._
+_This webpage has a quiz for choosing programming languages to learn. Answer the questions, click submit button and see what is the best choice for you._
 
 ## Setup/Installation Requirements
 
