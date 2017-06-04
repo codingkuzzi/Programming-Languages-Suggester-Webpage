@@ -1,16 +1,16 @@
 function initSurvey() {
-  $(".containerResult").hide();
+  $("#results").hide();
   $("input:radio:checked").prop('checked', false);
-  $(".containerSurvey").show();
+  $("#survey").show();
 }
 
 function showResult(resultIndex) {
-  $(".containerSurvey").hide();
+  $("#survey").hide();
   $("#result1").hide();
   $("#result2").hide();
   $("#result3").hide();
   $("#result" + resultIndex).show();
-  $(".containerResult").show();
+  $("#results").show();
 }
 
 function calculateResult() {
@@ -28,20 +28,14 @@ function calculateResult() {
 }
 
 $(function() {
-  initSurvey();
-  $("form#quiz").submit(function(event) {
-    event.preventDefault();
+  $("#submit").click(function() {
     var resultIndex = calculateResult();
     if (resultIndex > 0) {
       showResult(resultIndex);
-
     }
   });
 
   $("#retake").click(function() {
     initSurvey();
-
-
-
   });
 });

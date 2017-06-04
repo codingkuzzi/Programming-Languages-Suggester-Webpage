@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title></title>
-</head>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
 
-<body>
-  <div class="container">
-    <h1 class="jumbotron">Decide Which Programming Language to Learn with This Interactive Quiz</h1>
-    <div class="containerSurvey">
-      <img id="hands" src="images/2.jpg" alt="hands on laptop">
-      <form id="quiz">
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Decide Which Programming Language to Learn with This Interactive Quiz</h1>
+      <div id="survey">
+        <img id="hands" src="images/2.jpg" alt="hands on laptop">
         <div class="form-group">
           <label class="control-label">What did you enjoy doing as a child?</label>
           <div class="radio">
@@ -136,33 +135,28 @@
           </div>
         </div>
         <div class="form-group">
-          <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+          <button class="btn btn-primary " id="submit" type="button">Submit</button>
         </div>
-      </form>
-
+      </div>
+      <div id="results" style="display: none;">
+        <div class="container" id="result1">
+          <h3>Your choice is CSS/Design.</h3>
+          <h3>Whether you’re an aspiring freelancer, a design-savvy front-end developer, or a budding UI/UX designer, this course is a launching point for anyone interested in designing beautiful, memorable web experiences.</h3>
+          <img id="design" src="images/5.png" alt="happy coders">
+        </div>
+        <div class="container" id="result2">
+          <h3>Your choice is Ruby/Rails.</h3>
+          <h3>These programing languages are typically used by younger companies and startups, especially for building interactive web applications.</h3>
+          <img id="ruby" src="images/4.jpg" alt="happy coders">
+        </div>
+        <div class="container" id="result3">
+          <h3>Your choice is Java/Android.</h3>
+          <h3>You will be able to create dynamic web applications. Android is used in everything from phones to tablets to watches, and companies hiring Android developers range from small startups to giant enterprises.</h3>
+          <img src="images/3.jpg" alt="happy coders">
+        </div>
+        <div id="retake"><button type="button" class="btn btn-primary">Retake the Quiz</button></div>
+      </div>
     </div>
-    <div class="containerResult">
-      <div class="container" id="result1">
-        <h3>Your choice is CSS/Design.</h3>
-        <h3>Whether you’re an aspiring freelancer, a design-savvy front-end developer, or a budding UI/UX designer, this course is a launching point for anyone interested in designing beautiful, memorable web experiences.</h3>
-        <img id="design" src="images/5.png" alt="happy coders">
-      </div>
-      <div class="container" id="result2">
-        <h3>Your choice is Ruby/Rails.</h3>
-        <h3>These programing languages are typically used by younger companies and startups, especially for building interactive web applications.</h3>
-        <img id="ruby" src="images/4.jpg" alt="happy coders">
-      </div>
-      <div class="container" id="result3">
-        <h3>Your choice is Java/Android.</h3>
-        <h3>You will be able to create dynamic web applications. Android is used in everything from phones to tablets to watches, and companies hiring Android developers range from small startups to giant enterprises.</h3>
-        <img src="images/3.jpg" alt="happy coders">
-      </div>
-      <div id="retake"><button type="button" class="btn btn-primary">Retake the Quiz</button></div>
-    </div>
-
-  </div>
-
-
-</body>
+  </body>
 
 </html>

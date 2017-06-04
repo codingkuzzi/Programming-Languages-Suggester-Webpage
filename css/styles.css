@@ -11,7 +11,7 @@ body {
 }
 
 #ruby {
-  width: 85%;
+  width: 75%;
   height: avto;
 }
 
@@ -24,7 +24,7 @@ body {
   padding-top: 30px;
 }
 
-.containerResult {
+#results {
   text-align: center;
 }
 
